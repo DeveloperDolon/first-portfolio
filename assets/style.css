@@ -17,7 +17,7 @@ header {
 }
 
 .menu_section {
-    padding: 50px 0px 0;
+    padding: 50px 150px 0px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ header {
 .menu_section ul li a {
     text-decoration: none;
     color:  #474747;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -48,7 +48,7 @@ header {
 
 .my_btn {
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 700;
     flex-shrink: 0;
     padding: 18px 36px;
@@ -97,4 +97,49 @@ header {
 
 .btn_area {
     padding-top: .8rem;
+}
+
+main {
+    padding: 0 200px;
+}
+
+.about_area {
+    padding: 90px 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.section_title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0 25px;
+}
+
+.section_description {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #757575;
+}
+
+.personal_info {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal_info .infos {
+    text-align: center;
+    color: #757575;
+}
+
+.personal_info .infos .info_text {
+    color: #474747;
+    margin-top: 3px;
+}
+
+.service_up_section {
+    padding: 0 80px;
 }
