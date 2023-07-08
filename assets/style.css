@@ -8,10 +8,16 @@
 header {
     height: 100vh;
     background: #FFF8F3;
+    padding: 0px 226px;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-size: 5.6%,45%;
+    background-position: 3% center, bottom right;
 }
 
 .menu_section {
-    padding: 50px 226px;
+    padding: 50px 0px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,4 +55,46 @@ header {
     border: none;
     border-radius: 5px;
     background: #FD6E0A;
+}
+
+.banner_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_text {
+    width: 45%;
+}
+
+.banner_img {
+    text-align: right;
+}
+
+.banner_img img{
+    width: 73%;
+}
+
+.banner_text h2 {
+    color: #474747;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.banner_text h1 {
+    color: #181818;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.description {
+    color: #757575;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 1rem 0;
+}
+
+.btn_area {
+    padding-top: .8rem;
 }
